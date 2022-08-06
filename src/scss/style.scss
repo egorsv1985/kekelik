@@ -13,22 +13,22 @@
 @import "fonts/icons";
 
 // Шрифт по умолчанию ==============================================================================================================================================================================================================================================================================
-$fontFamily: "Circe";
-$fontSize: rem(14); // где 14(px) - размер шрифта по умолчанию из макета
+$fontFamily: "Cannonade";
+$fontSize: rem(20); // где 20(px) - размер шрифта по умолчанию из макета
 
 // Основные цвета
-$mainColor: #4f4f4f; // Основной цвет
+$mainColor: #545454; // Основной цвет
 $primaryColor: #fff; //Основной белый цвет
 
-$accentColor: #dfc181; // Дополнительный цвет
+$accentColor: linear-gradient(265.13deg, #FFD780 -13.3%, #F9DB9A 42.35%, #EFC05B 96.17%);; // Дополнительный цвет
 
 // НАСТРОЙКИ ===============================================================================================================================================================================================================================================================================================
 // Минимальная ширина страницы
 $minWidth: 320;
 // Ширина полотна (макета)
-$maxWidth: 1900;
+$maxWidth: 1440;
 // Ширина ограничивающего контейнера (0 = нет ограничения)
-$maxWidthContainer: 1220;
+$maxWidthContainer: 1310;
 // Общий отступ у контейнера
 // (30 = по 15px слева и справа, 0 = нет отступа)
 $containerPadding: 30;
@@ -155,17 +155,13 @@ body {
 // sections
 
 @import "./sections/main";
-@import "./sections/choose";
-@import "./sections/sort";
-@import "./sections/recomendations";
-@import "./sections/discount";
-@import "./sections/offer";
-@import "./sections/feedback";
+
 
 // block
 @import "header";
-@import "footer";
-@import "./blocks/nav";
+@import "./blocks/control";
 @import "./blocks/logo";
+@import "./blocks/nav";
 @import "./blocks/open-burger";
-@import "./blocks/video";
+
+

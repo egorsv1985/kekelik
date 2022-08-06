@@ -1,8 +1,8 @@
 @font-face {
-	font-family: Cannonade;
+	font-family: "cannonade";
 	font-display: swap;
-	src: url("../fonts/Cannonade.woff2") format("woff2"), url("../fonts/Cannonade.woff") format("woff");
-	font-weight: 500;
+	src: url("../fonts/cannonade-bold.woff2") format("woff2"), url("../fonts/cannonade-bold.woff") format("woff");
+	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
@@ -13,7 +13,14 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: yiggivoo;
+	font-family: "Cannonade";
+	font-display: swap;
+	src: url("../fonts/Cannonade.woff2") format("woff2"), url("../fonts/Cannonade.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "yiggivoo";
 	font-display: swap;
 	src: url("../fonts/yiggivoo-unicode.woff2") format("woff2"), url("../fonts/yiggivoo-unicode.woff") format("woff");
 	font-weight: 400;

@@ -1,11 +1,29 @@
 .header {
- 
   // .header__wrapper
   &__wrapper {
-    @include flex(space-between, center, wrap, row);
-    @include media(max, md) {
-      align-items: center;
-    }
+    @include flex ($flex-direction: column);
   }
- 
+  // .header__city-select
+  &__city-select {}
+  // .header__top
+  &__top {}
+  // .header__burger
+  &__burger {}
+  // .header__logo
+  &__logo {}
+  // .header__control
+  &__control {}
+  // .header__bottom
+  &__bottom {}
+  // .header__list
+  &__list {}
+  // .header__item
+  &__item {}
+  // .header__link
+  &__link {}
+  // .header__img-link
+  &__img-link {}
+  // .header__nav
+  &__nav {}
 }
+
